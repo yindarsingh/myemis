@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// comment for this route
+// made some changes to the comment
+Route::get('/roles', function () {
+    return view('roles');
+});
