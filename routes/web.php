@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 // comment for this route
+// made some changes to the comment
 Route::get('/roles', function () {
     return view('roles');
 });
